@@ -1,0 +1,16 @@
+print('=====desafio1=====')
+nome = input('Qual o eu nome? ')
+print('Eai',nome+',','prazer em te conhecer')
+
+print('=====desafio2=====')
+dia = input('Dia = ')
+mes = input('Mes = ')
+ano = input('Ano = ')
+print('Data recebida:',dia+' de '+mes+' de '+ano+',','certo?')
+
+print('=====desafio3=====')
+n1 = input('Primeiro valor: ')
+n2 = input('Segundo valor: ')
+s1 = int(n1)
+s2 = int(n2)
+print('Soma dos valores: ',s1+s2)
