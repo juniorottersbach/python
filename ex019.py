@@ -1,4 +1,4 @@
-import math
+from math import radians, sin, cos, tan
 # faça um programa que leia um angulo qualquer e mostre o valor do seno cosseno e tangente
 ang = float(input("Informe um ângulo qualquer: "))
-print("Valor do Sen {:.2f}, Cos {:.2f} e Tan {:.2f}".format(math.sin(ang), math.cos(ang), math.tan(ang)))
+print("O angulo de: {} possui os valores: \nSeno: {:.2f}\nCosseno: {:.2f}\nTangente: {:.2f}".format(ang, sin(radians(ang)), cos(radians(ang)), tan(radians(ang))))
